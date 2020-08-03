@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Natours Udemy project",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjwood032/NaTours.git"
+  },
+  "author": "Christopher Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjwood032/NaTours/issues"
+  },
+  "homepage": "https://github.com/cjwood032/NaTours#readme"
+}
