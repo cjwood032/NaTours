@@ -101,6 +101,18 @@ body {
 .u-margin-bot-lg {
   margin-bottom: 8rem; }
 
+.u-margin-top-sm {
+  margin-top: 1.5rem; }
+
+.u-margin-top-md {
+  margin-top: 4rem; }
+
+.u-margin-top-lg {
+  margin-top: 8rem; }
+
+.u-margin-top-xlg {
+  margin-top: 10rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -130,6 +142,12 @@ body {
   background-color: #fff; }
   .btn--white::after {
     background-color: #fff; }
+
+.btn--green {
+  color: #fff;
+  background-color: #55c57a; }
+  .btn--green::after {
+    background-color: #55c57a; }
 
 .btn:after {
   content: "";
@@ -198,7 +216,9 @@ body {
     height: 23rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); }
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
     .card__picture--2 {
@@ -213,7 +233,7 @@ body {
     color: #fff;
     position: absolute;
     top: 12rem;
-    right: 2rem;
+    right: 4rem;
     width: 50%; }
   .card__heading-span {
     padding: 1rem 1.5rem;
@@ -237,6 +257,23 @@ body {
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; }
+  .card__price-box {
+    text-align: center;
+    margin-bottom: 8rem;
+    color: white; }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }
 
 .composition {
   position: relative; }
@@ -352,5 +389,5 @@ body {
 
 .section-tours {
   background-color: #F7F7F7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
